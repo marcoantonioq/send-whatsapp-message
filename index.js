@@ -11,7 +11,7 @@ var message = `
 
 Olá {{nome}}, tudo bem?
 
-Está é uma mensagem de teste 
+Está é uma mensagem de teste!
 
 `;
 
