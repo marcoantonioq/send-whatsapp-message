@@ -2,8 +2,8 @@
 // https://www.seabreezecomputers.com/excel2array/
 
 var listaContatos = [
-    ["+55 (62) 1234-1234", "Fulano da Silva"], 
-    ["+55 (62) 1234-1234", "Zé da Silva"], 
+    ["+55 (62) 91234-1234", "Fulano da Silva"], 
+    ["+55 (62) 91234-1234", "Zé da Silva"], 
 ];
 
 
