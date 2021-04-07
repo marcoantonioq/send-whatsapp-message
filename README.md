@@ -1,35 +1,33 @@
 # send-whatsapp-message
 Enviar lista de mensagens no whatsapp via console do navegador.
 
+# Configurações
+Como utilizar:
 
-# Settings
+1. Abra o Whatsapp web
+2. Abra o console do navegador com a tecla de atalho <Ctrl+Shift+J>
+3. Copie o código index.js <Ctrl+C> e cole no console aberto <Ctrl+V>
+4. Preencha o array contatos com os respectivos Telefones e Nomes
 
-As principais configurações index.js são:
-
-## Altere a lista de contatos: 
 ```js
 
-var listaContatos = [
+var contatos = [
     ["+55 (62) 1234-1234", "Fulano da Silva"], 
     ["+55 (62) 1234-1234", "Zé da Silva"], 
 ];
 
 ```
 
-Caso tenha uma planilha com os contatos, acesse o [seabreezecompures/excel2array](https://www.seabreezecomputers.com/excel2array/) para converter uma tabela em Array Multidimensional
-
-
-## Altere o templete da menssagem: 
-
+5. Altere o template da mensagem.
 ```js
 
-var message = `
+var template = `
 Olá {{nome}}, tudo bem?
 Está é uma mensagem de teste!
 `;
 
 ```
+6. Pressione enter
 
-# Utilização
-
-...
+# Preview
+![VIEW](https://raw.githubusercontent.com/marcoantonioq/send-whatsapp-message/main/demo/demo.gif)

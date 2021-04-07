@@ -7,7 +7,7 @@ var contatos = [
 ];
 
 
-var message = `
+var template = `
 
 Olá {{nome}}, tudo bem?
 
@@ -63,7 +63,7 @@ async function init(){
     for (const [number, name] of contatos) {
 
         let nb = number.replace(/([()+. -])/g, '');
-        let msg = message.replace(/{{nome}}/g, name);
+        let msg = template.replace(/{{nome}}/g, name);
         let url = 'https://wa.me/'+nb+'&text='+encodeURIComponent(msg)
 
         try {
